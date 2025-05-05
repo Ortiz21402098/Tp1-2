@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenedores</title>
+    <style>
+        body{
+            background: linear-gradient(to bottom left, #ff0000, #ff7f00);
+        }
+        footer{
+            background-color: rgb(246, 157, 41);
+            text-align: center;
+            color: aliceblue;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        nav a  {
+            text-decoration: none;
+            color: black;
+          
+       }
+
+       nav{
+           background-color: rgb(49, 49, 96);
+           font-size: 30px;
+           text-align: center;
+       }
+       
+       .contenedorcentro{
+        border: 1px solid black;
+        text-align: center;
+        margin-top: 10px;
+       }
+       .contenedorizq{
+        border: 1px solid black;
+        text-align: left;
+        margin-top: 10px;
+       }
+       .contenedorderecha{
+        border: 1px solid black;
+        text-align: right;
+        margin-top: 10px;
+       }
+       .contpadre{
+        border: 1px solid black;
+        margin-top: 10px;
+        text-align: center;
+       }
+       .hijo1{
+        border: 1px solid black;
+        text-align: right;
+        margin: 10px;
+       }
+       .hijo2{
+        border: 1px solid black;
+        text-align: right;
+        margin: 10px;
+       }
+
+       .contpadre1{
+        border: 1px solid black;
+        text-align: center;
+        position: relative;
+       }
+       .hijo3{
+        border: 1px solid black;
+        text-align: left;
+        margin: 10px;
+       }
+       .hijo4{
+        border: 1px solid black;
+        text-align: left;
+        margin: 10px;
+        background-color: cadetblue;
+        width: 250px;
+        position: absolute;
+        top:10px;
+        left:850px;
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Introduccion lenguaje html</h1>
+        <nav>
+            <a href="contenedores.html">Contenedores</a>
+            <a href="tablas.html">Tablas y listas</a>
+            <a href="curriculum.html">Curriculum vitae</a>
+            <a href="formulario.html">Formularios</a>
+            <a href="tarjeta.html">Tarjeta</a>
+            
+        </nav>
+    </header>
+
+    <div class="contenedorcentro">
+        <h1>Contenedor centro</h1>
+        <p>Este es un contenedor</p>
+    </div>
+    
+    <div class="contenedorizq">
+        <h1>Contenedor izquierda</h1>
+        <p>Este es un contenedor</p>
+    </div>
+
+    <div class="contenedorderecha">
+        <h1>Contenedor derecha</h1>
+        <p>Este es un contenedor</p>
+    </div>
+
+    <div class="contpadre">
+        <h1>Contenedor padre</h1>
+        <div class="hijo1">
+            <h2>Contenedor hijo 1</h2>
+        </div>
+        <div class="hijo2">
+            <h2>Contenedor hijo 2</h2>
+        </div>
+    </div>
+    <h1>Posicionamiento de componentes</h1>
+    <div class="contpadre1">
+        <h1>Contenedor padre</h1>
+        <div class="hijo3">
+            <h2>Contenedor hijo 1</h2>
+        </div>
+        <div class="hijo4">
+            <img src="./logo.jpg" width="100px" height="100px" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <p>Diseño realizado con 5a</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+        body{
+            background: linear-gradient(to bottom left, #ff0000, #ff7f00);
+        }
+        h1{
+            background-color: rgb(246, 157, 41);
+            text-align: center;
+            color: aliceblue;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        nav a  {
+             text-decoration: none;
+             color: black;
+           
+        }
+
+        nav{
+            background-color: rgb(49, 49, 96);
+            font-size: 30px;
+            text-align: center;
+        }
+
+        footer{
+            background-color: rgb(246, 157, 41);
+            text-align: center;
+            color: aliceblue;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        form{
+            background-color: brown;
+            width: 40%;
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+            margin-left: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+        }
+        input{
+            margin: 5px;
+            padding: 5px;
+            border: 2px solid black;
+        }
+        button{
+            background-color: grey;
+            font-size: 20px;
+            border-radius: 10px;
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Introduccion lenguaje html</h1>
+        <nav>
+            <a href="contenedores.html">Contenedores</a>
+            <a href="tablas.html">Tablas y listas</a>
+            <a href="curriculum.html">Curriculum vitae</a>
+            <a href="formulario.html">Formularios</a>
+            <a href="tarjeta.html">Tarjeta</a>
+            
+        </nav>
+    </header>
+    <h2>Formulario de contacto</h2>
+    <form action="">
+        <label for="">Nombre</label>
+        <input type="text" placeholder="ingrese aqui su nombre"><br>
+        <label for="">Apellido</label>
+        <input type="text"><br>
+        <label for="">DNI</label>
+        <input type="number"><br>
+        <label for="">Password</label>
+        <input type="password"><br>
+        <label for="">Email</label>
+        <input type="email"><br>
+        <label for="">Sexo</label>
+        <input type="checkbox">Masculino
+        <input type="checkbox">Femenino
+        <br>
+        <label for="">Fecha de nacimiento</label>
+        <input type="date" name="" id=""><br>
+        <label for="">Barrio de la ciudad</label>
+        <select name="" id="">
+            <option value="">Las 400</option>
+            <option value="">20 de junio</option>
+            <option value="">Catedral</option>
+        </select><br><br>
+        <button>Acceder</button>
+    </form>
+    <footer>
+        <p>Diseño realizado con 5a</p>
+    </footer>
+</body>
+</html>

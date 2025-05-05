@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta presentacion</title>
+    <style>
+        body{
+            background: linear-gradient(to bottom left, #ff0000, #ff7f00);
+            height: 800px;
+            font-family: 'Courier New', Courier, monospace;
+
+
+        }
+        .contenedorpadre{
+            border: 2px solid black;
+            width: 400px;
+            height: 600px;
+            margin-left: 450px;
+            margin-top: 40px;
+            background-color: white;
+            box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            position: relative;
+
+        }
+
+        .perfil{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid red;
+            position: absolute;
+            right: 130px;
+            top: 100px;
+        }
+
+        .fondo{
+            width: 400px;
+            height: 200px;
+            border-bottom: rgb(255, 0, 0) solid 2px;
+
+        }
+        .texto{
+            text-align: center;
+            
+        }
+        .redes a img{
+            width: 30px;
+            height: 30px;
+            
+        }
+        .redes a{
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        .redes{
+            margin-left: 100px;
+        }
+
+        .boton a{
+            text-decoration: none;
+            background-color: rgb(20, 169, 174);
+            color: white;
+            font-size: 25px;
+            border-radius: 8px;
+            padding: 5px;
+            margin-left: 150px;
+        }
+
+        nav a  {
+            text-decoration: none;
+            color: black;
+          
+       }
+
+       nav{
+           background-color: rgb(49, 49, 96);
+           font-size: 30px;
+           text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trabajo Tarjeta </h1>
+        <nav>
+            <a href="contenedores.html">Contenedores</a>
+            <a href="tablas.html">Tablas y listas</a>
+            <a href="curriculum.html">Curriculum vitae</a>
+            <a href="formulario.html">Formularios</a>
+            <a href="tarjeta.html">Tarjeta</a>
+            
+        </nav>
+    </header>
+    <div class="contenedorpadre">
+        <div>
+            <img class="fondo" src="./imagenes/foto.jpg" alt="">
+            <img class="perfil" src="./imagenes/perfil.jpeg" alt="">
+        </div>
+
+        <div class="texto">
+            <h1>Lionel Andres Messi</h1>
+            <h6>Rosario, Santa Fe</h6>
+            <p>Lionel Andrés Messi Cuccittini, conocido como Leo Messi, 
+                es un futbolista argentino que juega como delantero o centrocampista. 
+                Desde 2023, integra el plantel del Inter Miami de la MLS canadoestadounidense. 
+                Es también internacional con la selección de Argentina, de la que es capitán</p>
+        </div>
+        <div class="boton">
+            <a href="https://github.com/">Seguir</a>
+        </div>
+        <br><br>
+        <div class="redes">
+            
+            <a href="www.instagram.com" target="_blank"><img src="./imagenes/ig.png" alt=""></a>
+            <a href="www.facebook.com" target="_blank"><img src="./imagenes/face.png" alt=""></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="./imagenes/whatsapp_logo_icon_229310.png" alt=""></a>
+            <a href="https://www.youtube.com/?feature=ytca" target="_blank"><img src="./imagenes/youtube.png" alt=""></a>
+        </div>
+
+    </div>
+</body>
+</html>
